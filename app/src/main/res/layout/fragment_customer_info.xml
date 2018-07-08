@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_back"
+    tools:context="com.education.user.taj.CustomerInfo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_height="100dp">
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="@string/name"
+            android:layout_marginTop="50dp"
+            />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:layout_marginTop="40dp"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_height="120dp">
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:textSize="30sp"
+            android:text="@string/Mobile"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginTop="50dp"
+            />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:layout_marginTop="45dp"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_marginTop="60dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/submit" />
+
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Taj</string>
+    <string name="hotels">HotelName</string>
+    <string name="order">Orders</string>
+    <string name="name">Name :</string>
+    <string name="info">Customer Info</string>
+    <string name="Mobile">Mobile :</string>
+    <string name="pendiong"> Pending</string>
+    <string name="submit">Submit</string>
+
+
+
+    <!--Chinese items-->
+
+    <string name="item1">Noodles</string>
+    <string name="item2">Noodles2</string>
+    <string name="item3">Chinese Item3</string>
+    <string name="item4">Chinese Item4</string>
+    <string name="item5">Chinese Item5</string>
+    <string name="item6">Chinese Item6</string>
+    <string name="item7">Chinese Item7</string>
+    <string name="item8">Chinese Item8</string>
+
+    <!--Indian items-->
+
+    <string name="biryani">Biryani</string>
+    <string name="item10">Indian Item2</string>
+    <string name="item11">Indian Item3</string>
+    <string name="item12">Indian Item4</string>
+    <string name="item13">Indian Item5</string>
+    <string name="item14">Indian Item6</string>
+    <string name="item15">Indian Item7</string>
+    <string name="item16">Indian Item8</string>
+
+
+
+
+    <string name="proceed">Proceed</string>
+    <string name="Add">+</string>
+    <string name="Sub">-</string>
+    <string name="Confirm">Confirm</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="chinese">chinese</string>
+    <string name="indian">Indian</string>
+    <string name="breakfast">Breakfast</string>
+
+    <string name="table1">Table 1</string>
+    <string name="table2">Table2</string>
+    <string name="table3">Table3</string>
+</resources>

@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/splashtheme"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.education.user.taj.Neworder">
+
+    <Toolbar
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    </Toolbar>
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/chinese"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chinese" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/indian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/indian" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/breakfast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/breakfast" />
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </android.support.v4.view.ViewPager>
+</LinearLayout>
